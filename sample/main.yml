@@ -1,0 +1,15 @@
+---
+# tasks file for sample
+- name: copy_static_file
+  copy:
+    src: 1.txt
+    dest: /home/ubuntu/
+- name: copying_template
+  template:
+    src: 1.j2
+    dest: /home/ubuntu/
+~                                                                                                                                                                        
+~                                                                                                                                                                        
+~                                                                                                                                                                        
+~                                                                                                                                                                        
+~                                 
